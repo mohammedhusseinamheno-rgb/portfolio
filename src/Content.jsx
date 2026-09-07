@@ -14,7 +14,7 @@ const Content = () => {
             <div className="socials flex justify-around flex gap-2 text-1xl font-poppins text-left w-full ">
                 <a href="https://www.instagram.com/964.m7md/" target="_blank" rel="noopener noreferrer" className="hover:bg-orange-500 rounded bg-sky-500 text-base text-1xl md:text-2xl p-2 w-1/3 hover:scale-102 hover:text-white flex-col"><FaInstagram /> Instagram</a>
                 <a href="https://www.linkedin.com/in/mohammed-hussein-amheno-604494407?utm_source=share_via&utm_content=profile&utm_medium=member_androidhttps://www.linkedin.com/in/mohammed-hussein-amheno-604494407" target="_blank" rel="noopener noreferrer" className="hover:bg-white hover:text-sky-800 rounded bg-sky-500 text-1xl md:text-2xl text-base p-2 w-1/3 hover:scale-102"><FaLinkedin /> Linkedin</a>
-                <a href="https://www.youtube.com/@eng.m7" target="_blank" rel="noopener noreferrer" className="hover:bg-red-500 hover:text-white rounded bg-sky-500 text-base text-1xl md:text-2xl p-2 w-1/3 hover:scale-101"><FaYoutube /> YouTube</a>
+                <a href="https://www.youtube.com/@eng.m7" target="_blank" rel="noopener noreferrer" className="hover:bg-red-500 hover:text-white rounded bg-sky-500 text-base text-1xl md:text-2xl p-2 w-1/3 hover:scale-102"><FaYoutube /> YouTube</a>
             </div>
         </section>
         <section id="about" className="about p-8 gap-2 h-screen w-full md:w-1/2 flex justify-center flex-col items-start">
