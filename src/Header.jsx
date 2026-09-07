@@ -24,7 +24,7 @@ function Header() {
       )}
 
         <ul
-        className={`nav flex flex-col bg-elevated fixed top-20 right-0 w-1/2 md:w-1/3 h-[calc(100vh-5rem)] justify-around text-center font-mono text-xl md:text-2xl
+        className={`nav flex flex-col bg-elevated fixed top-20 right-0 w-full md:w-1/3 h-[calc(100vh-5rem)] justify-around text-center font-mono text-xl md:text-2xl
             transition-transform duration-300 ease-in-out
             ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} font-poppins font-bold`}
         >
