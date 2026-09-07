@@ -25,7 +25,7 @@ const Content = () => {
         </section>
         <section id="services" className="services p-8 gap-2 h-screen w-full md:w-1/2 flex justify-center flex-col items-start">
             <h1 className="text-2xl md:text-3xl font-poppins text-left font-bold text-sky-500 underline underline-offset-6">Services</h1>
-            <p className="text-1xl md:text-2xl font-mono text-justify">
+            <p className="text-1xl md:text-2xl font-sans text-justify">
             I offer a range of services to help bring your ideas to life, Whether you need a website, page monitoring, designs, or other digital solutions, I'm here to assist you every step of the way.
             </p>
         </section>
