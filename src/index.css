@@ -5,16 +5,15 @@
 }
 
 @theme {
-  --color-base: #0a0a0f;
-  --color-elevated: #12121c;
-  --color-accent-primary: #8b5cf6;
-  --color-accent-secondary: #22d3ee;
-  --color-text-primary: #e4e4e7;
-  --color-text-muted: #71717a;
-  --color-border: #27272a;
+  --color-base: #020304;
+  --color-elevated: #0a1018;
+  --color-accent-primary: #0ea5e9;
+  --color-accent-secondary: #38bdf8;
+  --color-text-primary: #e6f4f1;
+  --color-text-muted: #64748b;
+  --color-border: #101820;
 
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-poppins: "Poppins", sans-serif;
 }
-

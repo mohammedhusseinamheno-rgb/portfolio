@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { TfiAlignJustify, TfiClose } from "react-icons/tfi"
+import { TfiAlignJustify } from "react-icons/tfi"
+import { FaTimes } from "react-icons/fa"
 import './index.css'
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
       {/* Navigation */}
         <h1 className="text-3xl font-bold font-poppins cursor-pointer">M7</h1>
       {isMenuOpen ? (
-        <TfiClose
+        <FaTimes
           className="text-3xl right-0 top-0 cursor-pointer z-50 hover:text-red-500"
           role="button"
           onClick={() => setIsMenuOpen(false)}
@@ -24,7 +25,7 @@ function Header() {
       )}
 
       <ul
-        className={`nav flex flex-col bg-elevated fixed top-20 right-0 w-full md:w-1/3 h-[calc(100vh-5rem)] justify-around text-center font-mono text-xl md:text-2xl
+        className={`nav flex flex-col bg-elevated fixed top-20 right-0 w-full md:w-1/3 h-[calc(100vh-5rem)] justify-around text-center text-xl md:text-2xl
           transition-transform duration-300 ease-in-out
           ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} font-poppins font-bold`}
       >
