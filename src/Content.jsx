@@ -2,12 +2,12 @@ import React from 'react';
 import './index.css'
 import { useState } from 'react'
 import { FaInstagram, FaLinkedin, FaYoutube, FaDiscord, FaMapMarker, FaEnvelope, FaCode, FaPaintBrush, FaChartLine, FaTimes } from "react-icons/fa"
-
+import { SiBlender  } from "react-icons/si"
 
 // Images for services
 import designImg from "./assets/Design.webp"
 import programmingImg from "./assets/programming.jpg"
-import monitoringImg from "./assets/Monitoring.webp"
+import Blender from "./assets/3Dwork.png"
 
 
 
@@ -21,18 +21,18 @@ const services = [
   },
   {
     id: 2,
+    name: "3D Modeling",
+    icon: <SiBlender />,
+    description: " I create 3D objects and scenes using Blender and other softwares, though I am still learning and improving my skills in this area. I can create scenes and objects for your projects, 3D ads, 3D objects for your products and more, Contact me for more information and to discuss your project needs.",
+    image: Blender, // swap with your real image
+  },
+  {
+    id: 3,
     name: "Designing",
     icon: <FaPaintBrush />,
     description: "Crafting visual concepts, layouts, and branding that communicate ideas clearly and leave a lasting impression. From wireframes to polished UI.",
     image: designImg, // swap with your real image
-  },
-  {
-    id: 3,
-    name: "Page Monitoring",
-    icon: <FaChartLine />,
-    description: "Monitoring your sites, business page and make contact with your customers, ensuring optimal performance and engagement. Providing insights and analytics to help you make informed decisions.",
-    image: monitoringImg, // swap with your real image
-  },
+  }
 ]
 
 const Content = () => {
