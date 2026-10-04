@@ -17,3 +17,34 @@
   --font-body: "Inter", sans-serif;
   --font-poppins: "Poppins", sans-serif;
 }
+
+
+
+.font-primary,
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.font-secondary,
+body, p, li, a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.font-accent,
+code, .label, .tag {
+  font-family: "Space Mono", monospace;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+}
+
+.trail-overlay,
+.trail-overlay * {
+  pointer-events: none !important;
+}
+
+
+
